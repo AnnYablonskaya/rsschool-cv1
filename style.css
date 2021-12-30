@@ -1,0 +1,46 @@
+body {
+    background-color: lightskyblue;
+}
+.h1 {
+    color: #a10b38;
+    font-size:large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    }
+.h2 {
+    color: #d412aa;
+    font-size:large;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+    }
+
+.contacts {
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.location {
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutme {
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills{
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.education{
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.languages {
+    color:darkblue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
