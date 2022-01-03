@@ -1,46 +1,91 @@
 body {
-    background-color: lightskyblue;
-}
-.h1 {
-    color: #a10b38;
-    font-size:large;
+    display: flex;
+    flex-direction:column;
+    background-color: papayawhip;
+    border: teal;
+    border-style:solid;
+    max-width: 1250px;
+    padding: 40px;
+    margin: 0 auto;
+    }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    padding-right: 40px;
+    max-width: 2000px;
+    }
+.nav-menu{
+    display: inline;
+    align-items: center;
+    width: 150px;
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 20px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    transition: .3s;
+    }
+.me1{
+    float: left;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(238, 155, 238);
+    padding: 1em;
+    }
+.h1{
+    
+    color: #a10b38;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 0 35%;
+
     }
 .h2 {
     color: #d412aa;
-    font-size:large;
+    font-size: 25px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif; 
     }
 
 .contacts {
     color:darkblue;
-    font-size: medium;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 .location {
     color:darkblue;
-    font-size: medium;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 .aboutme {
     color:darkblue;
-    font-size: medium;
+    text-align:justify; 
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 .skills{
+    width: 100%;
     color:darkblue;
-    font-size: medium;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 .education{
     color:darkblue;
-    font-size: medium;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 .languages {
     color:darkblue;
-    font-size: medium;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
 }
